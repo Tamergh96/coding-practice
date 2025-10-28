@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio</title>
+</head>
+<body>
+    <header>
+        <h1>Tamer Ghazi</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+    <main>
+        <section id="about">
+            <h2>About me</h2>
+            <img src="https://placehold.co/200" alt="A Photo of me" width="200"/>
+            <p>I Studied <strong>Computer Science</strong></p>
+            <p>I am learning <strong>Programming</strong></p>
+            <blockquote>Just Do !</blockquote>
+        </section>
+        <section id="projects">
+            <div>
+                <h3> Project Alpha</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas, minus.</p>
+                <ol>
+                    <li>New</li>
+                    <li>Modern</li>
+                    <li>Easy To use</li>
+                </ol>
+                <a href="#">View Project</a>
+            </div>
+            <div>
+                <h3> Project Beta</h3>
+                <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum velit dolorem optio ipsa expedita delectus!</p>
+                <ol>
+                    <li>Programmed with Javascript</li>
+                    <li>Made by 2 programmers</li>
+                    <li>Moden and simple</li>
+                </ol>
+            </div>
+        </section>
+        <section>
+            <h2>Technical Skills</h2>
+            <table border="1">
+                <thead>
+                    <tr>
+                        <th>Skill Category</th>
+                        <th>Technology</th>
+                        <th>Proficiency Level</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Programming</td>
+                        <td>Frontend Programming</td>
+                        <td>Intermediate</td>
+                    </tr>
+                    <tr>
+                        <td>Frondend</td>
+                        <td>CSS</td>
+                        <td>Intermediate</td>
+                    </tr>
+                    <tr>
+                        <td colspan="2">Future Learning Goal</td>
+                        <td>Angular</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+        <section id="contact">
+            <h2>Contact Me</h2>
+            <form>
+                <fieldset>
+                    <legend>Personal Info</legend>
+                    <label for="fullName">
+                        Full Name:
+                    </label>
+                    <input type="text" id="fullName" name="fullName"/>
+                    <label for="emailAddr">
+                        Email:
+                    </label>
+                    <input type="email" id="emailAddr" name="emailAddr"/>
+                </fieldset><br>
+                <fieldset>
+                    <legend>Your Message</legend>
+                    <label for="reason">Reason for contact</label>
+                    <select id="reason">
+                        <option>Question About the project</option>
+                        <option>Cost</option>
+                        <option>More about the team<meta name="description" content=""></option>
+                    </select> <br>
+                    <label for="Priority"> Priority
+                        <input type="radio" name="priority" value=""/>
+                    </label>
+                    <label for="Priority"> Priority
+                        <input type="radio" name="priority" value=""/>
+                    </label>
+                    <label for="Priority"> Priority
+                        <input type="radio" name="priority" value=""/>
+                    </label><br>
+                    <label for="terms">I agree the terms</label>
+                    <input type="checkbox" id="terms" name="terms"><br>
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" rows="5">
+                    </textarea>
+                    <br><br><button type="submit">Send Message</button>
+                </fieldset>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2025 Tamer Ghazi</p>
+        <a href ="#">Back to top</a>
+    </footer>
+</body>
+</html>
