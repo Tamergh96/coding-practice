@@ -1,0 +1,88 @@
+* {
+    box-sizing: border-box;
+}
+
+html { 
+    font-size: 62.5%;
+} 
+
+body {
+    background-color: #EAECEE;
+    font-family: 'roboto';
+}
+
+h2 , p {
+    margin: 0;
+}
+
+/** Declaration of the installed font **/
+@font-face {
+    font-family: 'Oswald';
+    src: url("fonts/Oswald/Oswald-VariableFont_wght.ttf") format("truetype");
+}
+/** End of declaration **/
+
+.product-card {
+    width: 320px;
+    margin: 60px auto;
+    background-color: #FFFFFF;
+    border: 1px solid #CCCCCC;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.product-info {
+    padding: 20px;
+}
+
+.product-image
+{
+    display: block;
+    width: 100%;
+}
+
+.product-title {
+    font-family: 'anton';
+    font-size:  2.8rem; 
+}
+
+.product-description {
+    height: 55px;
+    overflow: scroll;
+    font-size: 1.4em;  
+}
+
+.product-price {
+    font-family: 'Oswald';
+    font-weight: bold;
+    font-size: 2.2rem;
+}
+
+.product-tag, span  {
+        display: inline-block;
+        padding: 4px 8px;
+        margin-bottom: 15px;
+}
+
+.unavailable {
+    /* display: none; */
+    visibility: hidden;
+}
+
+.add-to-cart-btn {
+    background-color: blue;
+}
+
+/* .add-to-cart-btn:hover {
+    background-color: darkblue;
+} */
+
+.add-to-cart-btn:hover{
+    /* was changed to imporant because it didnt work otherwise */
+    background-color: black !important;
+}
+
+.product-card {
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 1);
+}
+
